@@ -13,13 +13,15 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/hello_message" />
+        android:text="@string/hello_message"
+        android:id="@+id/textView"/>
 
     <Button
         android:text="@string/ButtonText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/button"
+        android:layout_below="@+id/textView"
         android:layout_alignParentStart="true"
-        android:layout_marginTop="19dp" />
+        android:layout_marginTop="14dp" />
 </RelativeLayout>
