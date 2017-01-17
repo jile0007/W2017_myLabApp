@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">W2017_myLabApp</string>
+    <string name="app_name">W2017_Labo</string>
     <string name="hello_message">Bonjour!</string>
     <string name="ButtonText">Un bouton</string>
+
+    <string name="title_activity_login">Activité: Enregistrement</string>
+    <string name="Login">Nom d\'utilisateur</string>
+    <string name="LoginHint">courriel</string>
+    <string name="Password">Mot de passe</string>
+    <string name="PasswordHint"></string>
+
+    <string name="RadioButton">Bouton radio</string>
+    <string name="CheckBox">Case à cocher</string>
+    <string name="Switch">Activer qqchose</string>
+    <string name="ImageButton">Étoile</string>
+
 </resources>
