@@ -20,7 +20,7 @@
         android:text="@string/Login"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textView2"
+        android:id="@+id/LoginLabel"
         android:textAlignment="textStart"
         android:textColor="#0000ff"
         android:textSize="10pt"
@@ -31,13 +31,15 @@
         android:layout_height="wrap_content"
         android:hint="@string/LoginHint"
         android:inputType="textEmailAddress"
-        android:background="@drawable/input_text_border"/>
+        android:background="@drawable/input_text_border"
+        android:id="@+id/LoginName"/>
 
     <TextView
         android:text="@string/Password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textView3"
+        android:layout_marginTop="8pt"
+        android:id="@+id/passwordLabel"
         android:textAlignment="textStart"
         android:textColor="#0000ff"
         android:textSize="10pt"
@@ -47,6 +49,18 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textPassword"
-        android:background="@drawable/input_text_border"/>
+        android:background="@drawable/input_text_border"
+        android:id="@+id/LoginPassword"/>
+
+    <Button
+        android:text="@string/loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10pt"
+        android:id="@+id/loginButton"
+        android:background="#0000ff"
+        android:textColor="#ffffff"
+        android:textSize="12pt"
+        />
 
 </LinearLayout>
