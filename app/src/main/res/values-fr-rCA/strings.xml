@@ -15,4 +15,16 @@
     <string name="Switch">Activer qqchose</string>
     <string name="ImageButton">Étoile</string>
 
+    <string name="dialog_message">Terminer l\'activité?</string>
+    <string name="dialog_title">TITRE</string>
+    <string name="ok">OK</string>
+    <string name="cancel">ANNULER</string>
+
+    <string name="startChatButton">Démarrer discussion</string>
+    <string name="chatWindowSendButton">ENVOIE</string>
+    <string name="chatHint">écrire ici</string>
+
+    <string name="outgoing">outgoing</string>
+    <string name="incoming">incoming</string>
+    
 </resources>
