@@ -15,27 +15,37 @@ public class StartActivity extends AppCompatActivity {
     protected static final String ACTIVITY_NAME = "StartActivity";
     public final static int REQUEST_CODE = 5;
     Button ImAButton;
+    Button chatButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_start);
+        Log.i(ACTIVITY_NAME, "In onCreate()");
 
         ImAButton = (Button)findViewById(R.id.button);
+        chatButton = (Button)findViewById(R.id.startChatButton);
 
         ImAButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
                 // button leads to ListItemsActivity
-
                 Intent i = new Intent(StartActivity.this, ListItemsActivity.class);
                 startActivityForResult(i, REQUEST_CODE);
             }
         });
 
+        chatButton.setOnClickListener(new View.OnClickListener(){
+            public void onClick(View view){
+                Log.i(ACTIVITY_NAME, "User clicked Start Chat");
+                // leads to ChatWindow
+                Intent i = new Intent(StartActivity.this, ChatWindow.class);
+                startActivity(i);
+            }
+        });
     }
 
     protected void onResume(){
-        Log.i(ACTIVITY_NAME, "In onCreate()");
+        Log.i(ACTIVITY_NAME, "In onResume()");
         super.onResume();
     }
 
