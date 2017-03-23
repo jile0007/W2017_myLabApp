@@ -27,4 +27,6 @@
     <string name="outgoing">outgoing</string>
     <string name="incoming">incoming</string>
 
+    <string name="weatherButton">Weather</string>
+
 </resources>

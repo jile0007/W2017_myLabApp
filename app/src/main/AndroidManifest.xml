@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.emma_jil.w2017_mylabapp">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
     <uses-feature
         android:name="android.hardware.camera2"
         android:required="true" />
@@ -24,7 +27,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ChatWindow"></activity>
+        <activity android:name=".ChatWindow" />
+        <activity android:name=".WeatherForecast"></activity>
     </application>
 
 </manifest>
