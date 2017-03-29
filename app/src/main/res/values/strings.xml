@@ -1,4 +1,5 @@
 <resources>
+
     <string name="app_name">W2017_myLabApp</string>
     <string name="hello_message">Hello World!</string>
     <string name="ButtonText">I\'m a button</string>
@@ -9,6 +10,7 @@
     <string name="Password">Password</string>
     <string name="PasswordHint">only you know</string>
     <string name="loginButton">Login</string>
+    <string name="nowhereButton">This leads to nowhere</string>
 
     <string name="RadioButton">Radio Button</string>
     <string name="CheckBox">Check Box</string>
@@ -28,5 +30,7 @@
     <string name="incoming">incoming</string>
 
     <string name="weatherButton">Weather</string>
+
+    <string name="deleteMsgButton">Delete This Message</string>
 
 </resources>

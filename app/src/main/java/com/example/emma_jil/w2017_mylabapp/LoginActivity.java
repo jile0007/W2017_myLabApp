@@ -39,8 +39,11 @@ public class LoginActivity extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+                Context c = getApplicationContext();
+                String msg = getString(R.string.nowhereButton);
+                int duration = Toast.LENGTH_LONG;
+                Toast t = Toast.makeText(c, msg, duration);
+                t.show();
             }
         });
 
@@ -71,7 +74,7 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     protected void onResume(){
-        Log.i(ACTIVITY_NAME, "In onCreate()");
+        Log.i(ACTIVITY_NAME, "In onResume()");
         super.onResume();
     }
 

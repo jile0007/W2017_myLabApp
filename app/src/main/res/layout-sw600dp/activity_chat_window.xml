@@ -9,21 +9,16 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.emma_jil.w2017_mylabapp.ChatWindow"  >
+    tools:context="com.example.emma_jil.w2017_mylabapp.ChatWindow">
 
     <ListView
-        android:layout_width="match_parent"
+        android:layout_width="300dp"
         android:layout_height="match_parent"
         android:layout_alignParentTop="true"
         android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
         android:layout_alignBottom="@+id/hLine"
-        android:layout_above="@id/hLine"
         android:headerDividersEnabled="true"
-        android:id="@+id/chatListView"
-        android:smoothScrollbar="true"
-        android:stackFromBottom="true"
-        android:transcriptMode="alwaysScroll"/>
+        android:id="@+id/chatListView" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -34,10 +29,10 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
         android:layout_alignEnd="@+id/sendButton"
-        android:id="@+id/editText"/>
+        android:id="@+id/editText" />
 
     <View
-        android:layout_width="fill_parent"
+        android:layout_width="300dp"
         android:layout_height="2dip"
         android:background="#33FF00"
         android:layout_above="@id/editText"
@@ -48,10 +43,19 @@
         android:layout_height="wrap_content"
         app:srcCompat="@android:drawable/ic_menu_send"
         android:layout_below="@+id/hLine"
-        android:layout_alignParentEnd="true"
+        android:layout_alignRight="@id/chatListView"
         android:id="@+id/sendButton"
         android:contentDescription="@string/chatWindowSendButton"
         android:backgroundTint="#33FF00"/>
 
+    <FrameLayout
+        android:id="@+id/chatWindowFrameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@id/chatListView"
+        android:background="@color/colorPrimary"
+        >
+
+    </FrameLayout>
 
 </RelativeLayout>
