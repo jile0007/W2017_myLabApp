@@ -8,7 +8,8 @@
     <string name="Login">Nom d\'utilisateur</string>
     <string name="LoginHint">courriel</string>
     <string name="Password">Mot de passe</string>
-    <string name="PasswordHint"></string>
+    <string name="PasswordHint">devine</string>
+    <string name="nowhereButton">Ceci amène nul part</string>
 
     <string name="RadioButton">Bouton radio</string>
     <string name="CheckBox">Case à cocher</string>
@@ -28,5 +29,24 @@
     <string name="incoming">incoming</string>
 
     <string name="weatherButton">Météo</string>
+
+    <string name="deleteMsgButton">Delete This Message</string>
+    <string name="title_activity_test_toolbar">TestToolbar</string>
+
+    <string name="One">Mouton Magique</string>
+    <string name="Two">Kiwi Kiki</string>
+    <string name="Three">Précieux Perroquet</string>
+    <string name="toolbarButtonName">Barre d'outils</string>
+    <string name="about">Info</string>
+    <string name="pinkEnvelope">Enveloppe Hot Pink</string>
+    <string name="option1">Mouton Magique sélectionné</string>
+    <string name="aboutDetails">Version 1.0, par Emma Jilesen</string>
+    <string name="dialogBoxTitle">Veux-tu retourner?</string>
+    <string name="positiveButton">OUI s\il vous plaît</string>
+    <string name="negativeButton">NON</string>
+    <string name="stayingHere">Tu vas rester ici, merci.</string>
+    <string name="dialog_box_hint">Votre message ici</string>
+    <string name="positiveButton2">OK</string>
+    <string name="negativeButton2">Cancel</string>
 
 </resources>

@@ -32,5 +32,22 @@
     <string name="weatherButton">Weather</string>
 
     <string name="deleteMsgButton">Delete This Message</string>
+    <string name="title_activity_test_toolbar">TestToolbar</string>
+
+    <string name="One">Sharp Sheep</string>
+    <string name="Two">Krazy Kiwi</string>
+    <string name="Three">Pretty Parrot</string>
+    <string name="toolbarButtonName">Toolbar</string>
+    <string name="about">About</string>
+    <string name="pinkEnvelope">Hot Pink Envelope</string>
+    <string name="option1">You\'ve selected the SHARP SHEEP!</string>
+    <string name="aboutDetails">Version 1.0, by Emma Jilesen</string>
+    <string name="dialogBoxTitle">Do you want to go back?</string>
+    <string name="positiveButton">YES, GET ME OUT!</string>
+    <string name="negativeButton">NO</string>
+    <string name="stayingHere">You\'ll be staying right here.</string>
+    <string name="dialog_box_hint">Your message here</string>
+    <string name="positiveButton2">Set Message</string>
+    <string name="negativeButton2">Cancel</string>
 
 </resources>

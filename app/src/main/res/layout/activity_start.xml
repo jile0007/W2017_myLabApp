@@ -47,4 +47,14 @@
         android:layout_alignParentStart="true"
         android:id="@+id/weatherForecastButton" />
 
+    <Button
+        android:id="@+id/toolbarButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/toolbarButtonName"
+        android:layout_below="@id/weatherForecastButton"
+        android:backgroundTint="#FFAA00"
+        android:textColor="#C80600"
+        android:textSize="8pt"/>
+
 </RelativeLayout>

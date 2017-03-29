@@ -17,6 +17,7 @@ public class StartActivity extends AppCompatActivity {
     Button ImAButton;
     Button chatButton;
     Button weatherButton;
+    Button toolbarButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,6 +27,8 @@ public class StartActivity extends AppCompatActivity {
 
         ImAButton = (Button)findViewById(R.id.button);
         chatButton = (Button)findViewById(R.id.startChatButton);
+        weatherButton = (Button)findViewById(R.id.weatherForecastButton);
+        toolbarButton = (Button)findViewById(R.id.toolbarButton);
 
         ImAButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
@@ -43,13 +46,20 @@ public class StartActivity extends AppCompatActivity {
             }
         });
 
-        weatherButton = (Button)findViewById(R.id.weatherForecastButton);
         weatherButton.setOnClickListener(new View.OnClickListener(){
             public void onClick(View view){
                 Intent weatherIntent = new Intent(StartActivity.this, WeatherForecast.class);
                 startActivity(weatherIntent);
             }
         });
+
+        toolbarButton.setOnClickListener(new View.OnClickListener(){
+            public void onClick(View view){
+                Intent toolbarIntent = new Intent(StartActivity.this, TestToolbar.class);
+                startActivity(toolbarIntent);
+            }
+        });
+
     }
 
     protected void onResume(){
