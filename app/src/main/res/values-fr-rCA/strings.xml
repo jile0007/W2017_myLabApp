@@ -36,13 +36,13 @@
     <string name="One">Mouton Magique</string>
     <string name="Two">Kiwi Kiki</string>
     <string name="Three">Précieux Perroquet</string>
-    <string name="toolbarButtonName">Barre d'outils</string>
+    <string name="toolbarButtonName">Barre d\'outils</string>
     <string name="about">Info</string>
     <string name="pinkEnvelope">Enveloppe Hot Pink</string>
     <string name="option1">Mouton Magique sélectionné</string>
     <string name="aboutDetails">Version 1.0, par Emma Jilesen</string>
     <string name="dialogBoxTitle">Veux-tu retourner?</string>
-    <string name="positiveButton">OUI s\il vous plaît</string>
+    <string name="positiveButton">OUI s\'il vous plaît</string>
     <string name="negativeButton">NON</string>
     <string name="stayingHere">Tu vas rester ici, merci.</string>
     <string name="dialog_box_hint">Votre message ici</string>
